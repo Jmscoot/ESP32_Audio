@@ -1,0 +1,29 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 C:\Users\1002s\Desktop\personal_projects\ESP32스마트오디오프로젝트\iot
+Traceback (most recent call last):
+  File "C:\Espressif\frameworks\esp-idf-v5.5\tools\kconfig_new\prepare_kconfig_files.py", line 102, in <module>
+    main()
+  File "C:\Espressif\frameworks\esp-idf-v5.5\tools\kconfig_new\prepare_kconfig_files.py", line 94, in main
+    env.update(json.load(args.env_file))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "json\__init__.py", line 293, in load
+UnicodeDecodeError: 'cp949' codec can't decode byte 0xec in position 5851: illegal multibyte sequence
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Espressif\python_env\idf5.5_py3.11_env\Lib\site-packages\kconfgen\__main__.py", line 18, in <module>
+    main()
+  File "C:\Espressif\python_env\idf5.5_py3.11_env\Lib\site-packages\kconfgen\core.py", line 714, in main
+    env = json.load(args.env_file)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "json\__init__.py", line 293, in load
+UnicodeDecodeError: 'cp949' codec can't decode byte 0xec in position 5851: illegal multibyte sequence
+CMake Error at C:/Espressif/frameworks/esp-idf-v5.5/tools/cmake/kconfig.cmake:219 (message):
+  Failed to run kconfgen
+  (C:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe;-m;kconfgen;--list-separator=semicolon;--kconfig;C:/Espressif/frameworks/esp-idf-v5.5/Kconfig;--sdkconfig-rename;C:/Espressif/frameworks/esp-idf-v5.5/sdkconfig.rename;--config;C:/Users/1002s/Desktop/personal_projects/ESP32스마트오디오프로젝트/iot/sdkconfig;--defaults;C:/Users/1002s/Desktop/personal_projects/ESP32스마트오디오프로젝트/iot/sdkconfig.defaults;--defaults;C:/Users/1002s/Desktop/personal_projects/ESP32스마트오디오프로젝트/iot/sdkconfig.defaults.esp32;--env;IDF_MINIMAL_BUILD=n;--env-file;C:/Users/1002s/Desktop/personal_projects/ESP32스마트오디오프로젝트/iot/build/config.env).
+  Error 1
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.5/tools/cmake/build.cmake:704 (__kconfig_generate_config)
+  C:/Espressif/frameworks/esp-idf-v5.5/tools/cmake/project.cmake:740 (idf_build_process)
+  CMakeLists.txt:6 (project)
+
+

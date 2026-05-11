@@ -1,0 +1,49 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "C:\\Users\\1002s\\esp\\v5.4.1\\esp-idf",
+    "idf.pythonInstallPath": "C:\\Users\\1002s\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.portWin": "COM5",
+    "idf.toolsPathWin": "C:\\Users\\1002s\\.espressif",
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32"
+    },
+    "clangd.path": "C:\\Users\\1002s\\.espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+    "clangd.arguments": [
+        "--background-index",
+        "--query-driver=C:\\Users\\1002s\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+        "--compile-commands-dir=${workspaceFolder}\\build"
+    ],
+    "files.associations": {
+        "chrono": "c",
+        "text_encoding": "c",
+        "typeinfo": "c",
+        "atomic": "c",
+        "condition_variable": "c",
+        "future": "c",
+        "cstdlib": "c",
+        "bitset": "c",
+        "set": "c",
+        "format": "c",
+        "unistd.h": "c",
+        "adc_continuous.h": "c",
+        "stat.h": "c",
+        "soc_caps.h": "c"
+    },
+    "clang-format.executable": "C:\\Users\\1002s\\.espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clang-format.exe",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "",
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.clang_format_path": "C:\\Users\\1002s\\.espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clang-format.exe",
+    "C_Cpp.clang_format_style": "file",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "idf.currentSetup": "C:\\Users\\1002s\\esp\\v5.4.1\\esp-idf"
+}
